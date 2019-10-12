@@ -10,4 +10,4 @@ function destructivelyPrependKitten(name){
   return kittens
 }
 
-console.log(destructivelyPrependKitten())
+console.log(destructivelyPrependKitten("miles"))
