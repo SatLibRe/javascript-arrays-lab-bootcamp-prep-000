@@ -6,9 +6,10 @@ function destructivelyAppendKitten(name) {
   return newKittens
 }
 
-function destructivelyPrependKitten(name){
-  kittens.shift()
-  return kittens
+function destructivelyPrependKittenKitten(name) {
+  const newKittens = [];
+  newKittens.shift()
+  return newKittens
 }
 
 console.log(destructivelyPrependKitten("miles"))
