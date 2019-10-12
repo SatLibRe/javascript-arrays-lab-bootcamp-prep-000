@@ -9,3 +9,5 @@ function destructivelyPrependKitten(name){
   kittens.shift("Bob","Milo")
   return kittens
 }
+
+console.log(destructivelyPrependKitten())
