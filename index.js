@@ -1,3 +1,5 @@
 var kittens = ["Milo", "Otis", "Garfield"]
 
-function
+function destructivelyAppendKitten(name) {
+  return shift.kittens();
+}
